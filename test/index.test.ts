@@ -1,7 +1,7 @@
 import nock from 'nock'
 import * as nbaApi from '../src/nbaApi'
 
-// process.env.NBA_RAPID_API_KEY = '123'
+process.env.NBA_RAPID_API_KEY = '123'
 describe('Nba-Api', () => {
   it.todo('Should throw if no environment variable is detected')
   describe('Seasons', () => {
@@ -54,7 +54,9 @@ describe('Nba-Api', () => {
         )
 
       const {
-        api: { filters, leagues, message, results, status },
+        api: {
+          filters, leagues, message, results, status,
+        },
       } = await nbaApi.getLeagues()
       expect(filters).toEqual([])
       expect(leagues).toEqual(['africa', 'orlando', 'sacramento', 'standard', 'utah', 'vegas'])
