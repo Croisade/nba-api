@@ -1,0 +1,14 @@
+{
+    "extends": ["airbnb", "airbnb-typescript/base"],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "semi": ["error", "never"],
+        "@typescript-eslint/semi": "off",
+        "import/extensions": [
+            "error",
+            "never"
+        ]
+    }
+}
