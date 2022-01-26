@@ -1,7 +1,7 @@
 {
   "name": "nba-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/src/index.js",
   "scripts": {
     "build": "tsc -p ./tsconfig.build.json",
     "lint": "eslint ./src",
