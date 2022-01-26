@@ -8,10 +8,11 @@
     "@croisade:registry": "https://npm.pkg.github.com"
   },
   "description": "nba-api wrapper for rapid-api nba-api ",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc -p ./tsconfig.build.json",
     "lint": "eslint ./src",
     "test": "jest --colors --runInBand --detectOpenHandles --forceExit --verbose=true",
