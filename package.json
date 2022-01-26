@@ -1,9 +1,9 @@
 {
   "name": "@croisade/nba-api-wrapper",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/croisade/nba-api.git"
-    },
+    "type": "git",
+    "url": "https://github.com/croisade/nba-api.git"
+  },
   "publishConfig": {
     "@croisade:registry": "https://npm.pkg.github.com"
   },
@@ -36,7 +36,9 @@
     "typescript": "^4.5.5"
   },
   "dependencies": {
-    "axios": "^0.25.0"
+    "axios": "^0.25.0",
+    "typedoc": "^0.22.11",
+    "typedoc-plugin-markdown": "^3.11.12"
   },
   "files": [
     "dist"
