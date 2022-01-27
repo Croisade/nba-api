@@ -4,7 +4,7 @@ import { rapidApiHost, rapidApiBaseUrl } from '../constants'
 const instance = axios.create()
 
 const nbaApiRequest = async ({ ...rest }) => {
-  if (typeof process.env.NBA_RAPID_API_KEY !== 'string') {
+  if (typeof process.env.NBA_RAPID_API_KEY !== 'string' || typeof process.env.REACT_APP_NBA_RAPID_API_KEY !== 'string') {
     throw new Error('Missing environment variable NBA_RAPID_API_KEY')
   }
 
@@ -13,7 +13,7 @@ const nbaApiRequest = async ({ ...rest }) => {
     baseURL: rapidApiBaseUrl,
     headers: {
       'x-rapidapi-host': rapidApiHost,
-      'x-rapidapi-key': process.env.NBA_RAPID_API_KEY,
+      'x-rapidapi-key': (process.env.NBA_RAPID_API_KEY || process.env.REACT_APP_NBA_RAPID_API_KEY),
     },
     ...rest,
   })

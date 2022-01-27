@@ -8,7 +8,7 @@
     "@croisade:registry": "https://npm.pkg.github.com"
   },
   "description": "nba-api wrapper for rapid-api nba-api ",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "./dist/index.js",
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -41,6 +41,7 @@
     "typedoc-plugin-markdown": "^3.11.12"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ]
 }

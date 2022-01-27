@@ -28,6 +28,7 @@ To get a local copy up and running follow these simple example steps.
 3. Enter your API in your environment variables. I use [direnv](https://github.com/direnv/direnv)
    ```js
    NBA_RAPID_API_KEY = 'ENTER YOUR API';
+   REACT_APP_NBA_RAPID_API_KEY = 'ENTER YOUR API';
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
