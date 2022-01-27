@@ -2,17 +2,17 @@
 import nbaApiRequest from './utils/request'
 
 export enum Conference {
-  east,
-  west,
+  east = 'east',
+  west = 'west',
 }
 
 export enum Division {
-  Southeast,
-  Central,
-  Atlantic,
-  Northwest,
-  Pacific,
-  Southwest,
+  Southeast = 'Southeast',
+  Central = 'Central',
+  Atlantic = 'Atlantic',
+  Northwest = 'Northwest',
+  Pacific = 'Pacific',
+  Southwest = 'Southwest',
 }
 
 export enum Leagues {
