@@ -5,8 +5,10 @@ const instance = axios.create()
 
 const nbaApiRequest = async ({ ...rest }) => {
   let key
+  key = process.env.NBA_RAPID_API_KEY
+
   if (process.env.NBA_RAPID_API_KEY === undefined) {
-    key = process.env.REACT_APP_NBA_RAPID_API
+    key = process.env.REACT_APP_NBA_RAPID_API_KEY
   }
   if (key === undefined) {
     throw new Error('Missing environment variable REACT_APP_NBA_RAPID_API_KEY')
