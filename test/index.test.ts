@@ -377,13 +377,38 @@ describe('Nba-Api', () => {
       expect(teams.length).toEqual(18)
     })
 
-    it('Shoudl return teams by nickname', async () => {
-      const { api: { teams } } = await nbaApi.getTeamsByNickName()
+    it('Should return teams by nickname', async () => {
+      nock('https://api-nba-v1.p.rapidapi.com:443', { encodedQueryParams: true })
+        .get('/teams/nickName/Bucks')
+        .reply(200, {
+          api: {
+            status: 200,
+            message: 'GET teams/nickName/Bucks',
+            results: 1,
+            filters: ['teamId', 'league', 'city', 'shortName', 'nickName', 'confName', 'divName'],
+            teams: [{
+              city: 'Milwaukee',
+              fullName: 'Milwaukee Bucks',
+              teamId: '21',
+              nickname: 'Bucks',
+              logo: 'https://upload.wikimedia.org/wikipedia/fr/3/34/Bucks2015.png',
+              shortName: 'MIL',
+              allStar: '0',
+              nbaFranchise: '1',
+              leagues: {
+                standard: { confName: 'East', divName: 'Central' }, vegas: { confName: 'East', divName: 'Central' }, utah: { confName: 'East', divName: 'Central' }, sacramento: { confName: 'East', divName: 'Central' },
+              },
+            }],
+          },
+        }, [
+
+        ])
+      const { api: { teams } } = await nbaApi.getTeamsByNickName(nbaApi.NickName.bucks)
       expect(teams.length).toEqual(1)
     })
   })
   describe('Standings', () => {
-    it('Should return standings from the 2021 year', async () => {
+    it('Should return standings from the 2018 year', async () => {
       nock('https://api-nba-v1.p.rapidapi.com:443', { encodedQueryParams: true })
         .get('/standings/standard/2018/')
         .reply(
@@ -465,7 +490,7 @@ describe('Nba-Api', () => {
 
       const {
         api: { status, standings },
-      } = await nbaApi.getStandings('2018', input)
+      } = await nbaApi.getStandings(nbaApi.Year.twentyEighteen, input)
       expect(status).toEqual(200)
       expect(standings).toBeDefined()
     })
