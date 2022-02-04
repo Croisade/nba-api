@@ -2,6 +2,7 @@ import nock from 'nock'
 import * as nbaApi from '../src/nbaApi'
 
 describe('Nba-Api', () => {
+  process.env.NBA_RAPID_API_KEY = '123'
   describe('Seasons', () => {
     it('Should return a seasons object', async () => {
       nock('https://api-nba-v1.p.rapidapi.com:443', { encodedQueryParams: true })
