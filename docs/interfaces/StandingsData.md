@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[nbaApi.ts:81](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L81)
+[nbaApi.ts:275](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L275)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:62](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L62)
+[nbaApi.ts:256](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L256)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:68](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L68)
+[nbaApi.ts:262](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L262)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:57](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L57)
+[nbaApi.ts:251](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L251)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:77](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L77)
+[nbaApi.ts:271](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L271)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:59](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L59)
+[nbaApi.ts:253](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L253)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:58](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L58)
+[nbaApi.ts:252](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L252)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:53](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L53)
+[nbaApi.ts:247](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L247)
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:56](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L56)
+[nbaApi.ts:250](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L250)
 
 ___
 
@@ -155,7 +155,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:76](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L76)
+[nbaApi.ts:270](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L270)
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:61](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L61)
+[nbaApi.ts:255](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L255)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:60](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L60)
+[nbaApi.ts:254](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L254)
 
 ___
 
@@ -185,7 +185,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:54](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L54)
+[nbaApi.ts:248](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L248)
 
 ___
 
@@ -195,7 +195,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:86](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L86)
+[nbaApi.ts:280](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L280)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:55](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L55)
+[nbaApi.ts:249](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L249)
 
 ___
 
@@ -215,7 +215,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:75](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L75)
+[nbaApi.ts:269](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L269)
 
 ___
 
@@ -225,4 +225,4 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:85](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L85)
+[nbaApi.ts:279](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L279)

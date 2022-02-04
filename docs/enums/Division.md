@@ -17,58 +17,58 @@
 
 ### Atlantic
 
-• **Atlantic** = `2`
+• **Atlantic** = `"Atlantic"`
 
 #### Defined in
 
-[nbaApi.ts:12](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L12)
+[nbaApi.ts:22](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L22)
 
 ___
 
 ### Central
 
-• **Central** = `1`
+• **Central** = `"Central"`
 
 #### Defined in
 
-[nbaApi.ts:11](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L11)
+[nbaApi.ts:21](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L21)
 
 ___
 
 ### Northwest
 
-• **Northwest** = `3`
+• **Northwest** = `"Northwest"`
 
 #### Defined in
 
-[nbaApi.ts:13](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L13)
+[nbaApi.ts:23](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L23)
 
 ___
 
 ### Pacific
 
-• **Pacific** = `4`
+• **Pacific** = `"Pacific"`
 
 #### Defined in
 
-[nbaApi.ts:14](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L14)
+[nbaApi.ts:24](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L24)
 
 ___
 
 ### Southeast
 
-• **Southeast** = `0`
+• **Southeast** = `"Southeast"`
 
 #### Defined in
 
-[nbaApi.ts:10](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L10)
+[nbaApi.ts:20](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L20)
 
 ___
 
 ### Southwest
 
-• **Southwest** = `5`
+• **Southwest** = `"Southwest"`
 
 #### Defined in
 
-[nbaApi.ts:15](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L15)
+[nbaApi.ts:25](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L25)

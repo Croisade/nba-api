@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[nbaApi.ts:42](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L42)
+[nbaApi.ts:216](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L216)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:36](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L36)
+[nbaApi.ts:210](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L210)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:37](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L37)
+[nbaApi.ts:211](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L211)
 
 ___
 
@@ -56,13 +56,28 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `standard` | `Object` |
+| `africa?` | `Object` |
+| `africa.confName` | [`Conference`](../enums/Conference.md) |
+| `africa.divName` | [`Division`](../enums/Division.md) |
+| `orlando?` | `Object` |
+| `orlando.confName` | [`Conference`](../enums/Conference.md) |
+| `orlando.divName` | [`Division`](../enums/Division.md) |
+| `sacramento?` | `Object` |
+| `sacramento.confName` | [`Conference`](../enums/Conference.md) |
+| `sacramento.divName` | [`Division`](../enums/Division.md) |
+| `standard?` | `Object` |
 | `standard.confName` | [`Conference`](../enums/Conference.md) |
 | `standard.divName` | [`Division`](../enums/Division.md) |
+| `utah?` | `Object` |
+| `utah.confName` | [`Conference`](../enums/Conference.md) |
+| `utah.divName` | [`Division`](../enums/Division.md) |
+| `vegas?` | `Object` |
+| `vegas.confName` | [`Conference`](../enums/Conference.md) |
+| `vegas.divName` | [`Division`](../enums/Division.md) |
 
 #### Defined in
 
-[nbaApi.ts:44](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L44)
+[nbaApi.ts:218](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L218)
 
 ___
 
@@ -72,7 +87,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:40](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L40)
+[nbaApi.ts:214](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L214)
 
 ___
 
@@ -82,7 +97,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:43](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L43)
+[nbaApi.ts:217](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L217)
 
 ___
 
@@ -92,7 +107,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:39](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L39)
+[nbaApi.ts:213](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L213)
 
 ___
 
@@ -102,7 +117,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:41](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L41)
+[nbaApi.ts:215](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L215)
 
 ___
 
@@ -112,4 +127,4 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:38](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L38)
+[nbaApi.ts:212](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L212)

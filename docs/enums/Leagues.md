@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[nbaApi.ts:20](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L20)
+[nbaApi.ts:30](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L30)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:24](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L24)
+[nbaApi.ts:34](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L34)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:21](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L21)
+[nbaApi.ts:31](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L31)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:19](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L19)
+[nbaApi.ts:29](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L29)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:23](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L23)
+[nbaApi.ts:33](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L33)
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:22](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L22)
+[nbaApi.ts:32](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L32)

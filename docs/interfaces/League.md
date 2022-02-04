@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[nbaApi.ts:102](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L102)
+[nbaApi.ts:296](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L296)

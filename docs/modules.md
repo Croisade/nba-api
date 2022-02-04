@@ -6,9 +6,14 @@
 
 ### Enumerations
 
+- [City](enums/City.md)
 - [Conference](enums/Conference.md)
 - [Division](enums/Division.md)
 - [Leagues](enums/Leagues.md)
+- [NickName](enums/NickName.md)
+- [ShortName](enums/ShortName.md)
+- [TeamId](enums/TeamId.md)
+- [Year](enums/Year.md)
 
 ### Interfaces
 
@@ -51,7 +56,7 @@ The GET /seasons call allows your platform to receive an object containing all a
 
 #### Defined in
 
-[nbaApi.ts:128](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L128)
+[nbaApi.ts:321](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L321)
 
 ___
 
@@ -71,7 +76,7 @@ The GET /seasons call allows your platform to receive an object containing all a
 
 #### Defined in
 
-[nbaApi.ts:118](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L118)
+[nbaApi.ts:312](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L312)
 
 ___
 
@@ -89,7 +94,7 @@ The GET /standings/{league}/{seasonYear} call allows your platform to receive an
 
 | Name | Type |
 | :------ | :------ |
-| `seasonYear` | `string` |
+| `seasonYear` | [`Year`](enums/Year.md) |
 | `league` | [`Leagues`](enums/Leagues.md) |
 
 #### Returns
@@ -98,7 +103,7 @@ The GET /standings/{league}/{seasonYear} call allows your platform to receive an
 
 #### Defined in
 
-[nbaApi.ts:175](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L175)
+[nbaApi.ts:395](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L395)
 
 ___
 
@@ -106,11 +111,17 @@ ___
 
 ▸ **getTeamsByCity**(`city`): `Promise`<[`Teams`](interfaces/Teams.md)\>
 
+The GET /teams/divName/{city} call allows your platform to receive an object containing all available teams by division.
+
+**`summary`** Get teams by city
+
+**`throws`** {AxiosError}
+
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `city` | `string` |
+| `city` | [`City`](enums/City.md) |
 
 #### Returns
 
@@ -118,13 +129,19 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:153](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L153)
+[nbaApi.ts:366](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L366)
 
 ___
 
 ### getTeamsByConfName
 
 ▸ **getTeamsByConfName**(`conferenceName`): `Promise`<[`Teams`](interfaces/Teams.md)\>
+
+The GET /teams/divName/{conferenceName} call allows your platform to receive an object containing all available teams by division.
+
+**`summary`** Get teams by conference name
+
+**`throws`** {AxiosError}
 
 #### Parameters
 
@@ -138,13 +155,19 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:138](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L138)
+[nbaApi.ts:339](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L339)
 
 ___
 
 ### getTeamsByDivName
 
 ▸ **getTeamsByDivName**(`divisionName`): `Promise`<[`Teams`](interfaces/Teams.md)\>
+
+The GET /teams/divName/{divisionName} call allows your platform to receive an object containing all available teams by division.
+
+**`summary`** Get teams by division name
+
+**`throws`** {AxiosError}
 
 #### Parameters
 
@@ -158,7 +181,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:133](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L133)
+[nbaApi.ts:330](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L330)
 
 ___
 
@@ -166,11 +189,17 @@ ___
 
 ▸ **getTeamsById**(`id`): `Promise`<[`Teams`](interfaces/Teams.md)\>
 
+The GET /teams/divName/{id} call allows your platform to receive an object containing all available teams by division.
+
+**`summary`** Get teams by id
+
+**`throws`** {AxiosError}
+
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `id` | `string` |
+| `id` | [`TeamId`](enums/TeamId.md) |
 
 #### Returns
 
@@ -178,7 +207,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:163](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L163)
+[nbaApi.ts:384](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L384)
 
 ___
 
@@ -186,11 +215,17 @@ ___
 
 ▸ **getTeamsByLeague**(`league`): `Promise`<[`Teams`](interfaces/Teams.md)\>
 
+The GET /teams/divName/{league} call allows your platform to receive an object containing all available teams by division.
+
+**`summary`** Get teams by league
+
+**`throws`** {AxiosError}
+
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `league` | `string` |
+| `league` | [`League`](interfaces/League.md) |
 
 #### Returns
 
@@ -198,7 +233,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:158](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L158)
+[nbaApi.ts:375](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L375)
 
 ___
 
@@ -206,11 +241,17 @@ ___
 
 ▸ **getTeamsByNickName**(`nickName`): `Promise`<[`Teams`](interfaces/Teams.md)\>
 
+The GET /teams/divName/{nickName} call allows your platform to receive an object containing all available teams by division.
+
+**`summary`** Get teams by nickname
+
+**`throws`** {AxiosError}
+
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `nickName` | `string` |
+| `nickName` | [`NickName`](enums/NickName.md) |
 
 #### Returns
 
@@ -218,7 +259,7 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:143](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L143)
+[nbaApi.ts:348](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L348)
 
 ___
 
@@ -226,11 +267,17 @@ ___
 
 ▸ **getTeamsByShortName**(`shortName`): `Promise`<[`Teams`](interfaces/Teams.md)\>
 
+The GET /teams/divName/{shortName} call allows your platform to receive an object containing all available teams by division.
+
+**`summary`** Get teams by shortName
+
+**`throws`** {AxiosError}
+
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `shortName` | `string` |
+| `shortName` | [`ShortName`](enums/ShortName.md) |
 
 #### Returns
 
@@ -238,4 +285,4 @@ ___
 
 #### Defined in
 
-[nbaApi.ts:148](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L148)
+[nbaApi.ts:357](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L357)

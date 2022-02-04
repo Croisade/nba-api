@@ -13,18 +13,18 @@
 
 ### east
 
-• **east** = `0`
+• **east** = `"east"`
 
 #### Defined in
 
-[nbaApi.ts:5](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L5)
+[nbaApi.ts:5](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L5)
 
 ___
 
 ### west
 
-• **west** = `1`
+• **west** = `"west"`
 
 #### Defined in
 
-[nbaApi.ts:6](https://github.com/Croisade/nba-api/blob/1eeb9a5/src/nbaApi.ts#L6)
+[nbaApi.ts:6](https://github.com/Croisade/nba-api/blob/d0280ab/src/nbaApi.ts#L6)
